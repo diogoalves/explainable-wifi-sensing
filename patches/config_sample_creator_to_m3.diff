@@ -1,0 +1,13 @@
+diff --git a/Matlab_code/csi2batches_SimWiSense_fine_grained.m b/Matlab_code/csi2batches_SimWiSense_fine_grained.m
+index f113dc4..6edb37b 100755
+--- a/Matlab_code/csi2batches_SimWiSense_fine_grained.m
++++ b/Matlab_code/csi2batches_SimWiSense_fine_grained.m
+@@ -16,7 +16,7 @@ clear all;
+ close all;
+ 
+ env = ["Classroom" ; "Office"];
+-monitor ="m1";  %%% Select different monitors to generate batches. Options are "m1" / "m2" / "m3"
++monitor ="m3";  %%% Select different monitors to generate batches. Options are "m1" / "m2" / "m3"
+ Test = 'fine_grained';
+ 
+ BW = '80MHz'

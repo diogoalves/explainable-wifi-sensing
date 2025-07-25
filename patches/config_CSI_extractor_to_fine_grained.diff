@@ -1,0 +1,13 @@
+diff --git a/Matlab_code/CSI_extractor_SimWiSense.m b/Matlab_code/CSI_extractor_SimWiSense.m
+index 7d22fbf..4d50131 100755
+--- a/Matlab_code/CSI_extractor_SimWiSense.m
++++ b/Matlab_code/CSI_extractor_SimWiSense.m
+@@ -14,7 +14,7 @@
+ clc; clear; close all
+ 
+ %%% change the parameters as required
+-Test= "proximity";  %%%% Options are "proximity", "coarse", "fine_grained"
++Test= "fine_grained";  %%%% Options are "proximity", "coarse", "fine_grained"
+ env = ["Classroom"; "Office"];
+ BW = 80;
+ CHIP = '4366c0';     % wifi chip (possible values 4339, 4358, 43455c0, 4366c0)
