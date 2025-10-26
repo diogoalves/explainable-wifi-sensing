@@ -96,7 +96,7 @@ def plot(tested_on, data):
     axs[row_index, 1].set_xticks([])
     axs[row_index, 1].set_yticks([])
 
-  title0 = trained_on_keys[2].replace('trained_on_', 'Model trained on ').replace('_m1', ' M1').replace('_m2', ' M2').replace('_m3', ' M3')
+  title0 = trained_on_keys[1].replace('trained_on_', 'Model trained on ').replace('_m1', ' M1').replace('_m2', ' M2').replace('_m3', ' M3')
   title1 = trained_on_keys[0].replace('trained_on_', 'Model trained on ').replace('ClassroomOffice_m1m2m3', 'all monitors and environments')
   suptitle = tested_on.replace('tested_on_', 'Test samples from ').replace('_m1', ' M1').replace('_m2', ' M2').replace('_m3', ' M3')
 
