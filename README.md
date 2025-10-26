@@ -1,9 +1,20 @@
 # explainable-wifi-sensing
 
 This repository provides the implementation of the paper:  
-**"Beyond the Black Box: Explainability for Multi-Activity Multi-environment WiFi Sensing"**
+> **Beyond the Black Box: Explainability for Multi-activity Multi-environment WiFi Sensing**. 
+> ALVES, D. J. C. ; NAKAMURA, N. ; BATISTA, D. M. ; HIRATA JR., R. ; HIRATA, NINA S. T. . In: Proceedings of the 2025 IEEE LatinAmerican Conference on Communications (LATINCOM), 2025 [To be published]
 
-The code covers data preparation, model training, evaluation, and explainability techniques (e.g., Grad-CAM and SHAP) applied to WiFi sensing tasks involving multiple activities and environments.
+![Aggregated Grad-CAM and SHAP explanations for selected activities](./results/figures/experiment-gradcam-shap.png "Aggregated Grad-CAM and SHAP explanations for selected activities")
+Aggregated Grad-CAM and SHAP explanations for selected activities generated from test samples captured by Monitor 1 in the Classroom (upper),
+Monitor 2 in the Classroom (middle), and Monitor 1 in the Office (bottom). The rows correspond to the following activities: (A) Push forward, (B) Hands
+Up and Down, (C) Reading, and (D) Writing
+
+
+For more information contact: diogo.alves@usp.br
+
+The code covers data preparation, model training, evaluation, and explainability techniques (Grad-CAM and SHAP) applied to WiFi sensing tasks involving multiple activities and environments.
+
+
 
 ---
 
